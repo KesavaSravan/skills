@@ -1,41 +1,17 @@
 # Subtraction Skill
 
-A simple, reusable agent skill that calculates the difference between two numbers.
+## Purpose
+The Subtraction skill takes two numeric inputs and returns their difference.
 
-## Features
+## Inputs
+- **a**: First numeric input.
+- **b**: Second numeric input.
 
-- Accepts two numeric inputs (`a` and `b`).
-- Returns the mathematical difference (`a - b`).
-- Compatible with class-based and functional agent frameworks.
+## Outputs
+- **result**: The difference between inputs a and b.
 
-## Input Parameters
+## Usage
+This skill can be used to perform subtraction of two numbers.
 
-The skill accepts a JSON payload with the following parameters:
-
-| Parameter | Type   | Required | Description |
-|-----------|--------|----------|-------------|
-| `a`       | number | Yes      | The first number (minuend). |
-| `b`       | number | Yes      | The second number to subtract (subtrahend). |
-
-## Example Usage
-
-### JSON Input
-```json
-{
-  "a": 50,
-  "b": 18
-}
-```
-
-### JSON Output
-```json
-32.0
-```
-
-### Python Programmatic Usage
-```python
-from skill import execute
-
-result = execute(50, 18)
-print(result) # Output: 32.0
-```
+## Example
+python result = subtract(5, 3) print(result) # Outputs: 2
