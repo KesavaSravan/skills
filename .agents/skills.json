@@ -1,0 +1,15 @@
+{
+  "entries": [
+    { "path": "code-quality" },
+    { "path": "code-review" },
+    { "path": "context-handling" },
+    { "path": "flutter-skills" },
+    { "path": "java-ms-skills" },
+    { "path": "java-shared-lib-skills" },
+    { "path": "react-skills" },
+    { "path": "react-skills-tw" },
+    { "path": "react-skills-tw/coding-skills-folder" },
+    { "path": "react-skills-tw/defect-skills-folder" },
+    { "path": "react-skills-tw/ARCHIVED-SKILLS" }
+  ]
+}
