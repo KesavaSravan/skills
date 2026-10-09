@@ -4,7 +4,7 @@ A clean, standardized 2-level categorized repository for agentic coding skills.
 
 ## 📂 Architecture
 ```
-skills/
+skillss/
 ├── <category-folder>/       (Level 1: Domain / Category)
 │   └── <skill-name>/        (Level 2: Skill folder)
 │       ├── SKILL.md
@@ -14,7 +14,7 @@ skills/
 
 ---
 
-## 📦 Skills Catalog (69 Skills)
+## 📦 Skills Catalog
 
 ### 📁 `code-quality` (2 Skills)
 
@@ -101,7 +101,7 @@ skills/
 | `defect-reporting-and-learning` | [`react-skills-tw/defect-reporting-and-learning`](react-skills-tw/defect-reporting-and-learning/SKILL.md) | Phase 3 of the FE defect workflow. Updates the parent code-generation document in place with the defect fix and appends a Defect Change Log entry, then writes a Coding Agent Learning when the fault origin is an agent miss or a regression from a prior fix. Runs after defect-investigate-and-fix, even if every issue is BLOCKED. |
 | `defect-root-cause-analysis` | [`react-skills-tw/defect-root-cause-analysis`](react-skills-tw/defect-root-cause-analysis/SKILL.md) | Use as Phase 3 of the FE Defect Fix workflow to find the root cause by tracing the exact code path the reported trigger executes, filtering out context and comments that are not on that path, and proving the mechanism explains the observed symptom before classifying fault origin, blast radius and the edge-case matrix. Runs once per issue. Triggers include root cause analysis, RCA, locate defect, diagnose issue. |
 | `developer-notes-protocol` | [`react-skills-tw/developer-notes-protocol`](react-skills-tw/developer-notes-protocol/SKILL.md) | Use to extract, activate and trace Developer Notes consistently during story analysis or React code generation. Developer Notes are sacred law and override all other sources. Triggers include developer notes, dev notes, DN extraction, implementation notes, tech notes, or notes for developer. |
-| `dummy-skill-test` | [`react-skills-tw/dummy-skill-test`](react-skills-tw/dummy-skill-test/SKILL.md) | End-to-end FE defect fix for a triaged Jira defect. One fixed path - understand, trace, reproduce, map impact, fix, prove, gate, report. Covers the reported scenario, scenarios the ticket did not mention, and scenarios the fix itself could break. Use for every defect run. |
+| `dummy-skill-test` | [`react-skills-tw/dummy-skill-test`](react-skills-tw/dummy-skill-test/SKILL.md) | Test skill used to verify skill installation and output hello in agent. |
 | `feature-context-fetch-and-reconcile` | [`react-skills-tw/feature-context-fetch-and-reconcile`](react-skills-tw/feature-context-fetch-and-reconcile/SKILL.md) | Use when a JIRA user story references Sitecore API endpoints, BFF/OpenAPI |
 | `figma-design-analysis` | [`react-skills-tw/figma-design-analysis`](react-skills-tw/figma-design-analysis/SKILL.md) | Use this skill to reconcile mobile and desktop Figma Design Intent JSONs into a responsive design intent contract, and analyse Figma outputs to enrich component planning, responsive behaviour, RTL, and design-system reuse. Reads already-fetched Figma context files; performs no fetching. Triggers include Figma analysis, Figma reconciliation, responsive design intent, mobile desktop reconciliation, or responsive strategy. |
 | `figma-fetch-reconcile-and-analyse` | [`react-skills-tw/figma-fetch-reconcile-and-analyse`](react-skills-tw/figma-fetch-reconcile-and-analyse/SKILL.md) | Use when fetching Figma design intent from all Figma URLs in a Jira story, reconciling mobile and desktop viewports when both are provided, and producing the responsive design intent JSON for the Analysis Agent. Triggers include Figma fetch, Figma design intent, Figma reconciliation, responsive design intent, mobile desktop reconciliation, or Figma MCP. |
