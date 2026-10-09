@@ -1,15 +1,40 @@
 {
   "entries": [
-    { "path": "code-quality" },
-    { "path": "code-review" },
-    { "path": "context-handling" },
-    { "path": "flutter-skills" },
-    { "path": "java-ms-skills" },
-    { "path": "java-shared-lib-skills" },
-    { "path": "react-skills" },
-    { "path": "react-skills-tw" },
-    { "path": "react-skills-tw/coding-skills-folder" },
-    { "path": "react-skills-tw/defect-skills-folder" },
-    { "path": "react-skills-tw/ARCHIVED-SKILLS" }
+    {
+      "path": "react-skills-tw/coding-skills-folder"
+    },
+    {
+      "path": "react-skills-tw/defect-skills-folder"
+    },
+    {
+      "path": "react-skills-tw/analysis-skills-folder"
+    },
+    {
+      "path": "react-skills-tw/archived-skills-folder"
+    },
+    {
+      "path": "react-skills/frontend-engineering"
+    },
+    {
+      "path": "java-ms-skills/microservice-development"
+    },
+    {
+      "path": "java-shared-lib-skills/platform-libraries"
+    },
+    {
+      "path": "code-quality/sonar-analysis"
+    },
+    {
+      "path": "code-review/merge-request-review"
+    },
+    {
+      "path": "context-handling/code-context"
+    },
+    {
+      "path": "flutter-skills/qa-validation"
+    },
+    {
+      "path": "testing/dummy"
+    }
   ]
 }
